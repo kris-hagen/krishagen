@@ -200,12 +200,15 @@ RESPONSIVE
     float: none;
     text-align: center;
     margin: 0px;
-    padding: 0px;
   }
 
   nav li {
     float: none;
     line-height: 30px;
+  }
+
+  nav ul {
+    padding-inline-start: 0px;
   }
 
   .copyright {
@@ -216,7 +219,7 @@ RESPONSIVE
   .social {
     float: none;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 }
