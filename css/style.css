@@ -1,0 +1,222 @@
+/********************************
+GLOBAL
+********************************/
+body {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+/*******************************
+TEXT
+*******************************/
+h1, h2, h3, h4, h5 {
+  color: #A00E22;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+/*******************************
+LAYOUT: HEADER
+*******************************/
+header {
+  background-color: #A00E22;
+  color: white;
+  padding-top: 10px;
+  padding-right: : 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav {
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  float: right;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  margin-left: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .selected {
+  text-decoration: underline;
+}
+
+
+/*******************************
+LAYOUT: CONTENT
+*******************************/
+main {
+  float: left;
+}
+
+aside {
+  float: right;
+}
+
+.content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/*******************************
+LAYOUT: FOOTER
+*******************************/
+footer {
+  border-top-width: 5px;
+  border-top-style: ridge;
+  border-top-color: #A00E22;
+
+}
+
+.copyright {
+  float: left;
+}
+
+.social {
+  float: right;
+  margin-top: 15px;
+}
+
+.social a {
+  margin-left: 5px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.social a:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+
+/*******************************
+PAGE: WORK
+*******************************/
+.gallery ul {
+  padding-left: 0px;
+}
+
+.gallery li {
+  float: left;
+  margin: 10px;
+  background-color: #A00E22;
+  list-style: none;
+}
+
+.gallery li:hover {
+  background-color: #e76c6c;
+}
+
+.gallery p {
+  padding-left: 0px;
+  color: #ffffff;
+}
+
+.gallery a {
+  text-decoration: none;
+  text-align: center;
+}
+
+
+/*******************************
+PAGE: ABOUT ME
+*******************************/
+.img-left {
+  margin: 0px 30px 30px 0px;
+  max-width: 100%;
+}
+
+.img-right {
+  margin: 0px 0px 30px 30px;
+  max-width: 100%;
+}
+
+
+/*******************************
+RESPONSIVE
+*******************************/
+@media screen and (min-width: 0px) and (max-width: 550px) {
+  .logo {
+  float: none;
+  text-align: center;
+  margin-bottom: 0px;
+  }
+
+  nav,
+  nav a {
+    float: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  nav li {
+    float: none;
+    line-height: 30px;
+  }
+
+  .copyright {
+    float: none;
+    text-align: center;
+  }
+
+  .social {
+    float: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
