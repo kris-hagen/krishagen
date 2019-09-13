@@ -111,7 +111,7 @@ aside {
 }
 
 .wrapper {
-  min-height: calc(100vh - 63px)
+  min-height: calc(100vh - 63px);
 }
 
 
